@@ -4,7 +4,7 @@ Python module for parsing BVH (Biovision hierarchical data) mocap files
 #### Instance Bvh object from .bvh file
 ```python
 >>> from bvh import Bvh
->>> with open('tests/test_freebvh.bvh') as f:
+>>> with open('tests/test_freebvh.bvh' ,'rU') as f:
 >>>    mocap = Bvh(f.read())
 ```
  #### Get mocap tree
