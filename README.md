@@ -1,5 +1,20 @@
-# bvh-python
+# 3ds Max import bvh
+
+3ds Max 2015 - 2016 - 2017 import bvh file 
+
+```python
+import MaxImporterBVH_Max2015_v2
+app = QtGui.QApplication.instance()
+uiapp = MaxImporterBVH_Max2015_v2.UI_import_bvh()
+uiapp.show()
+```
+
+
+![bvh-python](https://github.com/20tab/bvh-python)
 Python module for parsing BVH (Biovision hierarchical data) mocap files
+
+
+
 
 #### Instance Bvh object from .bvh file
 ```python
